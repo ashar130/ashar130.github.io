@@ -1,0 +1,45 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left{
+    left: 0;
+    background: black;
+}
+
+.right {
+    right: 0;
+    background: white;
+}
+
+.left-text-centered {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+.right-text-centered {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.name{
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif; 
+    font-style: italic;
+    font-size: 800%;
+}
+
+.first{
+    color: white;
+}
+
+.last{
+    color: black;
+}
